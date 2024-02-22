@@ -35,4 +35,15 @@ To get this project up and running locally on your computer:
 
 4. Open a browser to <http://localhost:3000/> to open the library site.
 
-> **Note:** The library uses a default MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+> **Note:** The library uses a MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).So inorder to make the app function, One must create an atlas cluster and add the connection string to .env file as:
+
+```bash
+# .env file
+MONGODB_URI="<your mongo db connection string>"
+```
+
+> **Note:** Inorder to populate db with sample data, One can use populatedb.js file located at the root of the project as:
+
+```bash
+npm populate "<your mongo db connection string>"
+```
