@@ -23,18 +23,6 @@ To get this project up and running locally on your computer:
    npm install
    ```
 
-3. Run the tutorial server, using the appropriate command line shell for your environment:
-
-   ```bash
-   # Linux terminal
-   DEBUG=express-locallibrary-tutorial:* npm run devstart
-
-   # Windows Powershell
-   $ENV:DEBUG = "express-locallibrary-tutorial:*"; npm start
-   ```
-
-4. Open a browser to <http://localhost:3000/> to open the library site.
-
 > **Note:** The library uses a MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).So inorder to make the app function, One must create an atlas cluster and add the connection string by creating .env file at root of the project as:
 
 ```bash
@@ -45,5 +33,17 @@ MONGODB_URI="<your mongo db connection string>"
 > **Note:** Inorder to populate db with sample data, One can use populatedb.js file located at the root of the project as:
 
 ```bash
-npm populate "<your mongo db connection string>"
+node populatedb "<your mongo db connection string>"
 ```
+
+3. Run the devlopment server, using the appropriate command line shell for your environment:
+
+   ```bash
+   # Linux terminal
+   DEBUG=express-locallibrary-tutorial:* npm run devstart
+
+   # Windows Powershell
+   $ENV:DEBUG = "express-locallibrary-tutorial:*"; npm start
+   ```
+
+4. Open a browser to <http://localhost:3000/> to open the library site.
