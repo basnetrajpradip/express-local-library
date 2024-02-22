@@ -35,7 +35,7 @@ To get this project up and running locally on your computer:
 
 4. Open a browser to <http://localhost:3000/> to open the library site.
 
-> **Note:** The library uses a MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).So inorder to make the app function, One must create an atlas cluster and add the connection string to .env file as:
+> **Note:** The library uses a MongoDB database hosted on [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).So inorder to make the app function, One must create an atlas cluster and add the connection string by creating .env file at root of the project as:
 
 ```bash
 # .env file
