@@ -2,8 +2,6 @@
 
 "Local Library" website written in in Node/Express.
 
----
-
 This web application creates an online catalog for a small local library, where users can browse available books and manage them.
 
 ---
@@ -11,6 +9,8 @@ This web application creates an online catalog for a small local library, where 
 ## Live Preview
 
 Live preview of the web app is [here](pradip-express-local-library.glitch.me)
+
+---
 
 ## Quick Start
 
