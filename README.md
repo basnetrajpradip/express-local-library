@@ -8,7 +8,7 @@ This web application creates an online catalog for a small local library, where 
 
 ## Live Preview
 
-Live preview of the web app is [here](pradip-express-local-library.glitch.me)
+Live preview of the web app is [Here](https://pradip-express-local-library.glitch.me/catalog).
 
 ---
 
